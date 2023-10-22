@@ -1,2 +1,2 @@
 # apiGitHub
-The study app with getting info from github api
+The study app with getting info from github api 

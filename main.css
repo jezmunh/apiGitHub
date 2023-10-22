@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Marck+Script&family=Montserrat&family=Roboto:wght@100;300;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -9,15 +10,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 a {
     text-decoration: none;
     color: white;
-    transition: 0.2s all;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #1f363d;
+    transition: 0.5s all;
 }
-a:hover{    
-    color: rgb(203, 200, 200);
+a:hover{  
+    
+    background-color: #2e4f58;
 }
 label {
     margin: 10px;
@@ -38,7 +48,7 @@ button {
     color: #fff;
     border: 0px solid black;
     cursor: pointer;
-    transition: 0.2s all;
+    transition: 0.5s all;
 }
 
 button:hover {
@@ -60,6 +70,21 @@ img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 10pxl
+    border-radius: 10px;
 }
+
+h1, p{
+    margin-top: 10px;
+}
+nav {
+    margin: 10px;
+    
+}
+
+/* nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+} */
 
