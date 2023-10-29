@@ -76,15 +76,42 @@ img {
 h1, p{
     margin-top: 10px;
 }
-nav {
+/* nav {
     margin: 10px;
     
-}
+} */
 
-/* nav {
+nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-} */
+}
+.d-none {
+    display: none;
+}
+#decor {
+    background-color:#70a9a1;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+#load {
+    width: 100px;
+    height: 100px;
+    background-color: #70a9a1;
+    animation-name: loadPage;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadPage {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(360deg);
+    }
+}
